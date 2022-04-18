@@ -11,7 +11,7 @@ if (process.env.NODE_ENV === 'production') {
 console.log(mode + ' mode')
 
 module.exports = {
-  mode: production,
+  mode: 'production',
   output: {
     filename: './scripts/[name].[contenthash].js',
     assetModuleFilename: 'assets/[name][hash][ext]',
