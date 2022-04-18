@@ -21,7 +21,12 @@ jobs:
           node-version: '16.x'
 
       - name: Installing Dependencies
-        run: npm ci
+        run: |
+          npm install
+          npx webpack
+
+      - name: Linting
+        run: npm test
 
       - name: Building
         run: npm run build
