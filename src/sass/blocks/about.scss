@@ -1,0 +1,19 @@
+.about__container {
+  display: flex;
+  max-width: 500px;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.about__heading {
+  margin: 0;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.about__desctiption {
+  margin: 0;
+  margin-bottom: 10px;
+  text-align: justify;
+}

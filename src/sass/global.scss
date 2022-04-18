@@ -1,0 +1,21 @@
+$primary-color: tomato;
+$secondary-color: darkcyan;
+
+html {
+  font-family: 'generalFont', serif;
+  background: url('../images/car.jpg?as=webp');
+  background-size: cover;
+}
+
+h1 {
+  color: $primary_color;
+}
+
+.container {
+  &__subtitile {
+    color: $secondary-color;
+    display: block;
+    height: 140px;
+    background: url('../images/webpack.svg');
+  }
+}

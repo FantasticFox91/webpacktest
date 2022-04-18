@@ -1,0 +1,61 @@
+{
+  "name": "webpacktest",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "npm run test set NODE_ENV=development&&webpack serve --open",
+    "dev": "set NODE_ENV=development&&webpack",
+    "build": "set NODE_ENV=production&&webpack",
+    "test": "npx stylelint \"src/sass/**/*.scss\" editorconfig-cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FantasticFox91/webpacktest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FantasticFox91/webpacktest/issues"
+  },
+  "homepage": "https://github.com/FantasticFox91/webpacktest#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@squoosh/lib": "^0.4.0",
+    "babel-loader": "^8.2.4",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.1",
+    "editorconfig-checker": "^4.0.2",
+    "file-loader": "^6.2.0",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "image-minimizer-webpack-plugin": "^3.2.3",
+    "image-webpack-loader": "^8.1.0",
+    "imagemin": "^8.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-svgo": "^10.0.1",
+    "imagemin-webp": "^7.0.0",
+    "imagemin-webp-webpack-plugin": "^3.3.6",
+    "imagemin-webpack": "^5.1.1",
+    "img-optimize-loader": "^1.0.7",
+    "mini-css-extract-plugin": "^2.6.0",
+    "postcss": "^8.4.12",
+    "postcss-loader": "^6.2.1",
+    "postcss-preset-env": "^7.4.3",
+    "sass": "^1.50.0",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "stylelint": "^14.7.1",
+    "stylelint-config-htmlacademy": "^0.1.12",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-config-standard-scss": "^3.0.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  }
+}
