@@ -4,7 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
-    "start": "npm run test set NODE_ENV=development&&webpack serve --open",
+    "start": "set NODE_ENV=development&&webpack serve --open",
     "dev": "set NODE_ENV=development&&webpack",
     "build": "set NODE_ENV=production&&webpack",
     "test": "npx stylelint \"src/sass/**/*.scss\" editorconfig-cli"
